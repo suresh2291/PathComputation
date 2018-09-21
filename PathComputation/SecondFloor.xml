@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map name="Catalist" id="@+id/first_floor">
+
+	<Wall name="w30" shape="poly" coords="0,0,2,10030,0,2" id="@+id/Entrance" />
+	<Wall name="w31" shape="poly" coords="5220,2300,2,7850,2250,2" id="@+id/Entrance" />
+	<Wall name="w32" shape="poly" coords="4200,4800,2,6800,4800,2" id="@+id/Entrance" />
+	<Wall name="w33" shape="poly" coords="4200,7170,2,6820,7200,2" id="@+id/Entrance" />
+	<Wall name="w34" shape="poly" coords="4200,9320,2,6840,9300,2" id="@+id/Entrance" />
+	<Wall name="w35" shape="poly" coords="5300,11850,2,7940,11850,2" id="@+id/Entrance" />
+	<Wall name="w36" shape="poly" coords="0,4870,2,1040,4890,2" id="@+id/Entrance" />
+	<Wall name="w37" shape="poly" coords="950,5040,2,950,5720,2" id="@+id/Entrance" />
+	<Wall name="w38" shape="poly" coords="940,6220,2,940,9100,2" id="@+id/Entrance" />
+	<Wall name="w39" shape="poly" coords="890,9140,2,1240,10250,2" id="@+id/Entrance" />
+	<Wall name="w40" shape="poly" coords="0,0,2,0,15050,2" id="@+id/Entrance"/>
+	<Wall name="w41" shape="poly" coords="10030,30,2,10030,15050,2" id="@+id/Entrance" />
+	<Wall name="w42" shape="poly" coords="0,10350,2,3140,10320,2"  id="@+id/Entrance" />
+	<Wall name="w43" shape="poly" coords="3090,10300,2,3100,15000,2"  id="@+id/Entrance" />
+	<Wall name="w44" shape="poly" coords="0,15050,2,10030,15050,2" id="@+id/Entrance" />
+
+	<Snode name="25"  shape="poly" edges="1800,12850,2" coords="100,10400,3000,10420,3000,14950,100,14970" vrimage="image40"	id="@+id/entry"/>staircase node
+	<Snode name="26"  shape="poly" edges="1800,9990,2" coords="1300,9620,1420,10270,9870,9750,9790,10270" vrimage="image41" id="@+id/EyeWear"/>
+    <Snode name="27"  shape="poly" edges="1800,8250,2" coords="1300,9620,1420,10270,9870,9750,9790,10270" vrimage="image42" id="@+id/Electronics"/>
+	<Snode name="28" shape="poly" edges="1800,5890,2" coords="1300,9620,1420,10220,9870,9750,9790,10270" vrimage="image43" id="@+id/MensApperal"/>
+	<Snode name="29" shape="poly" edges="1800,3290,2" coords="9940,14990,9920,12870,3150,12890,3100,14990" vrimage="image44" id="@+id/MensEssentials"/>
+    <Snode name="30"  shape="poly" edges="1800,900,2" coords="9940,14990,9920,12870,3150,12890,3100,14990" vrimage="image45"  id="@+id/FootWear"/>
+    <Snode name="31"  shape="poly" edges="9150,900,2" coords="9940,14990,9920,12870,3150,12890,3100,14990" vrimage="image47" id="@+id/ApparelsWomen"/>
+	<Snode name="32"   shape="poly" edges="620,900,2" coords="1300,9620,1420,10220,9870,9750,9790,10270" vrimage="image48" id="@+id/MusicWorld"/>
+	<Snode name="33"  shape="poly" edges="730,3330,2" coords="1090,7640,9940,7590,9920,8400,1090,8340" vrimage="image49" id="@+id/Beverages"/>
+	<Snode name="34" shape="poly" edges="9060,3330,2" coords="1090,7640,9940,7590,9920,8400,1090,8340" vrimage="image50" id="@+id/HelpDesk"/>
+	<Snode name="35"  shape="poly" edges="350,5900,2" coords="1090,7640,9940,7590,9920,8400,1090,8340" vrimage="image51" id="@+id/Health"/>
+	<Snode name="36"  shape="poly" edges="9050,5900,2" coords="100,5670,9900,5700,9900,6170,150,6170" vrimage="image52" id="@+id/PartySupplies"/>
+	<Snode name="37"   shape="poly" edges="9150,8230,2" coords="100,5670,9900,5700,9900,6170,150,6170" vrimage="image53" id="@+id/RestRoomMen"/>
+	<Snode name="38" shape="poly" edges="9270,9990,2" coords="100,5670,9900,5700,9900,6170,150,6170" vrimage="image54" id="@+id/Entrance" />
+	<Snode name="39" shape="poly" edges="3730,9990,2" coords="100,2850,9890,2870,9890,3820,100,3650" vrimage="image55" id="@+id/Pastries"/>
+	<Snode name="40"  shape="poly" edges="3740,13620,2" coords="100,2850,9890,2870,9890,3820,100,3650" vrimage="image56" id="@+id/Dairy"/>
+	<Snode name="41"  shape="poly" edges="9160,13620,2" coords="100,2850,9890,2870,9890,3820,100,3650" vrimage="image57" id="@+id/Dairy"/>
+   
+	
+	<Spath name="24"  shape="poly" edges="25,26" id="@+id/EyeWear"/>
+    <Spath name="25"  shape="poly" edges="26,27" id="@+id/Electronics"/>
+	<Spath name="26"  shape="poly" edges="26,40" id="@+id/MensApperal"/>
+	<Spath name="27"  shape="poly" edges="40,41" id="@+id/MensApperal"/>
+	<Spath name="28" shape="poly" edges="40,39" id="@+id/MensEssentials"/>
+	<Spath name="29" shape="poly" edges="41,42" id="@+id/MensEssentials"/>
+    <Spath name="30"  shape="poly" edges="27,38"  id="@+id/FootWear"/>
+    <Spath name="31"  shape="poly" edges="27,28" id="@+id/Jewellery"/>
+    <Spath name="32"  shape="poly" edges="28,29" id="@+id/Jewellery"/>	
+    <Spath name="33"  shape="poly" edges="28,36" id="@+id/ApparelsWomen"/>
+	<Spath name="34"   shape="poly" edges="28,37" id="@+id/MusicWorld"/>
+	<Spath name="35"   shape="poly" edges="29,30" id="@+id/MusicWorld"/>
+	<Spath name="36"  shape="poly" edges="29,34" id="@+id/Beverages"/>
+	<Spath name="37" shape="poly" edges="29,35" id="@+id/HelpDesk"/>
+	<Spath name="38"  shape="poly" edges="30,31" id="@+id/Health"/>
+	<Spath name="39"  shape="poly" edges="30,32"  id="@+id/PartySupplies"/>
+	<Spath name="40"   shape="poly" edges="30,33"  id="@+id/RestRoomMen"/>
+	<Spath name="41"  shape="poly" edges="4,25" id="@+id/ApparelsWomen"/>
+	
+	
+	<EscalatorNode name="40"   shape="poly" edges="1800,12850,2" id="@+id/MusicWorld"/>
+
+
+</map>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map name="Catalist" id="@+id/first_floor">
+
+				
+	<Wall  name="w1"  shape="poly"  coords="0,0,0,10040,0,0"  id="@+id/Entrance" />
+	<Wall  name="w2"  shape="poly"  coords="0,9980,0,5020,9970,0"  id="@+id/Entrance" />
+	<Wall  name="w3"  shape="poly"  coords="4950,9950,0,4980,13460,0"  id="@+id/Entrance" />
+	<Wall  name="w4"  shape="poly"  coords="3410,9940,0,3410,13460,0"  id="@+id/Entrance" />
+	<Wall  name="w5"  shape="poly"  coords="3380,13430,0,4990,13460,0"  id="@+id/Entrance" />
+	<Wall  name="w6"  shape="poly"  coords="0,0,0,0,15040,0"  id="@+id/Entrance" />
+	<Wall  name="w7"  shape="poly"  coords="10070,0,0,10040,15040,0"  id="@+id/Entrance" />
+	<Wall  name="w8"  shape="poly"  coords="0,15040,0,10040,15040,0"  id="@+id/Entrance" />
+	
+	
+	<Snode name="1"  shape="poly" edges="1550,14720,0" coords="220,10110,3400,10110,3270,14940,170,14870" vrimage="gfimage1" id="@+id/entry"/>
+	<Snode name="2"  shape="poly" edges="1590,10520,0" coords="220,10110,3400,10110,3270,14940,170,14870"  vrimage="gfimage2" id="@+id/EyeWear"/>
+    <Snode name="3"  shape="poly" edges="4390,10500,0" coords="3510,10040,4920,10070,4920,13350,3510,13330"  vrimage="gfimage3" id="@+id/Electronics"/>
+	
+    
+    <Spath name="1"  shape="poly" edges="1,2" id="@+id/entry"/>
+    <Spath name="2"  shape="poly" edges="2,3" id="@+id/EyeWear"/>
+   
+	
+	
+	<EscalatorNode name="3"   shape="poly" edges="4390,10500,0" id="@+id/MusicWorld"/>
+
+</map>
